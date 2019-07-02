@@ -4,4 +4,5 @@
 	<small>Posted: <?php echo $post['created_at']; ?></small>
 	<br />
 	<h5><?php echo $post['body']; ?></h5>
+	<p><a class='btn btn-primary' href='<?php echo site_url('/posts/' . $post['slug']); ?>'>Read More</a></p>
 <?php endforeach; ?>
