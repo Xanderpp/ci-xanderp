@@ -3,7 +3,7 @@
 <?php foreach($posts as $post) : ?>
 	<div class="row">
 		<div class="col-3">
-			<img src="<?php echo site_url();?>assets/images/posts/<?php echo $post['post_image']; ?>" />
+			<img src="<?php echo site_url();?>assets/images/posts/<?php echo $post['post_image']; ?>" alt="image not existing" />
 		</div>
 		<div class="col-9">
 			<h3><?php echo $post['title']; ?></h3>
