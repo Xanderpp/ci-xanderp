@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel='stylesheet' href='https://bootswatch.com/4/flatly/bootstrap.min.css'>
+		<script src="http://cdn.ckeditor.com/4.5.11/standard/ckeditor.js"></script>
 		<title>CI_Xanderp</title>
 	</head>
 	<body>

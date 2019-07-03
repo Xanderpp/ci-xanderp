@@ -8,7 +8,12 @@
 	</div>
 	<div class="form-group">
 		<label>Body</label>
-		<textarea class="form-control" name="body" placeholder="Add body"><?php echo $post['body']; ?></textarea>
+		<textarea id="editor1" class="form-control" name="body" placeholder="Add body"><?php echo $post['body']; ?></textarea>
 	</div>
+	<select class="form-control mb-2" name="category_id">
+		<?php foreach($categories as $category): ?>
+		<option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
+		<?php endforeach; ?>
+	</select>
 	<button type="submit" class="btn btn-primary">Submit</button>
 </form>
