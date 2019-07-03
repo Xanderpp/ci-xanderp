@@ -1,4 +1,5 @@
-<h2><?= $title ?></h2>
+<h2 class="d-inline-flex"><?= $title ?></h2>
+<a href="<?php echo site_url('/posts/create'); ?>" class="btn btn-success d-inline-flex ml-4 mb-3">Add Blog</a>
 <?php foreach($posts as $post) : ?>
 	<h3><?php echo $post['title']; ?></h3>
 	<small>Posted: <?php echo $post['created_at']; ?></small>
