@@ -39,7 +39,7 @@
 			}
 			
 			else	{
-				$config['upload_path'] = '../assets/images/posts';
+				$config['upload_path'] = './assets/images/posts';
 				$config['allowed_types'] = 'gif|jpg|png';
 				$config['max_size'] = '2048';
 				$config['max_width'] = '2000';

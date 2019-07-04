@@ -1,4 +1,5 @@
 <h2><?php echo $post['title']; ?> </h2>
+<img src="<?php echo site_url();?>assets/images/posts/<?php echo $post['post_image']; ?>" alt="image not existing" />
 <div>
 	<small><?php echo $post['created_at']; ?></small>
 	<h5><?php echo $post['body']; ?></h5>
